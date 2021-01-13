@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB549BD825AD4A0F004E0D3C /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB549BD725AD4A0F004E0D3C /* OrderListViewModel.swift */; };
+		EB549BDB25AD4F8E004E0D3C /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB549BDA25AD4F8E004E0D3C /* OrderListView.swift */; };
 		EB92F1F725ABF53900DCFACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F1F625ABF53900DCFACF /* AppDelegate.swift */; };
 		EB92F1F925ABF53900DCFACF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F1F825ABF53900DCFACF /* SceneDelegate.swift */; };
 		EB92F1FB25ABF53900DCFACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F1FA25ABF53900DCFACF /* ContentView.swift */; };
@@ -14,9 +16,15 @@
 		EB92F20025ABF53A00DCFACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB92F1FF25ABF53A00DCFACF /* Assets.xcassets */; };
 		EB92F20325ABF53A00DCFACF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB92F20225ABF53A00DCFACF /* Preview Assets.xcassets */; };
 		EB92F20625ABF53A00DCFACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB92F20425ABF53A00DCFACF /* LaunchScreen.storyboard */; };
+		EB92F21025ABF98D00DCFACF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F20F25ABF98D00DCFACF /* CoreDataManager.swift */; };
+		EB92F21525ABFC4500DCFACF /* NSmanagedogjectContex+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F21425ABFC4500DCFACF /* NSmanagedogjectContex+extensions.swift */; };
+		EB92F21925ABFD9400DCFACF /* AddOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F21825ABFD9400DCFACF /* AddOrderViewModel.swift */; };
+		EB92F21D25ABFE0700DCFACF /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB92F21C25ABFE0700DCFACF /* AddOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB549BD725AD4A0F004E0D3C /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		EB549BDA25AD4F8E004E0D3C /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		EB92F1F325ABF53900DCFACF /* coredataiOS13AZM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coredataiOS13AZM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB92F1F625ABF53900DCFACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB92F1F825ABF53900DCFACF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		EB92F20225ABF53A00DCFACF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB92F20525ABF53A00DCFACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB92F20725ABF53A00DCFACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB92F20F25ABF98D00DCFACF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EB92F21425ABFC4500DCFACF /* NSmanagedogjectContex+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSmanagedogjectContex+extensions.swift"; sourceTree = "<group>"; };
+		EB92F21825ABFD9400DCFACF /* AddOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewModel.swift; sourceTree = "<group>"; };
+		EB92F21C25ABFE0700DCFACF /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,10 @@
 		EB92F1F525ABF53900DCFACF /* coredataiOS13AZM */ = {
 			isa = PBXGroup;
 			children = (
+				EB92F21B25ABFDF500DCFACF /* Views */,
+				EB92F21725ABFD7400DCFACF /* ViewModels */,
+				EB92F21325ABFC1500DCFACF /* Extentions */,
+				EB92F20E25ABF97800DCFACF /* Managers */,
 				EB92F1F625ABF53900DCFACF /* AppDelegate.swift */,
 				EB92F1F825ABF53900DCFACF /* SceneDelegate.swift */,
 				EB92F1FA25ABF53900DCFACF /* ContentView.swift */,
@@ -76,6 +92,40 @@
 				EB92F20225ABF53A00DCFACF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB92F20E25ABF97800DCFACF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EB92F20F25ABF98D00DCFACF /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EB92F21325ABFC1500DCFACF /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				EB92F21425ABFC4500DCFACF /* NSmanagedogjectContex+extensions.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		EB92F21725ABFD7400DCFACF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB92F21825ABFD9400DCFACF /* AddOrderViewModel.swift */,
+				EB549BD725AD4A0F004E0D3C /* OrderListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB92F21B25ABFDF500DCFACF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB92F21C25ABFE0700DCFACF /* AddOrderView.swift */,
+				EB549BDA25AD4F8E004E0D3C /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +201,12 @@
 				EB92F1F725ABF53900DCFACF /* AppDelegate.swift in Sources */,
 				EB92F1F925ABF53900DCFACF /* SceneDelegate.swift in Sources */,
 				EB92F1FB25ABF53900DCFACF /* ContentView.swift in Sources */,
+				EB549BD825AD4A0F004E0D3C /* OrderListViewModel.swift in Sources */,
+				EB92F21525ABFC4500DCFACF /* NSmanagedogjectContex+extensions.swift in Sources */,
+				EB549BDB25AD4F8E004E0D3C /* OrderListView.swift in Sources */,
+				EB92F21025ABF98D00DCFACF /* CoreDataManager.swift in Sources */,
+				EB92F21D25ABFE0700DCFACF /* AddOrderView.swift in Sources */,
+				EB92F21925ABFD9400DCFACF /* AddOrderViewModel.swift in Sources */,
 				EB92F1FE25ABF53900DCFACF /* coredataiOS13AZM.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
